@@ -1,0 +1,90 @@
+ul li {
+    list-style: none;
+}
+
+.main {
+    background: url("./resource/bodybg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 860px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    width: 960px;
+    height: 540px;
+    border-top-left-radius: 100px;
+    background: white;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-content {
+    display: flex;
+}
+
+.information {
+    display: flex;
+    background: antiquewhite;
+    border-radius: 100px;
+    width: 100%;
+    height: 202px;
+}
+
+.information img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.information .name {
+    width: 40%;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    background: beige;
+}
+
+.information .avatar {
+    width: 25%;
+    background: beige;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.information .contact-us {
+    width: 40%;
+    background: antiquewhite;
+    height: 202px;
+}
+
+.information .contact-us ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.information .contact-us ul li {
+    width: calc(100% / 4);
+    text-align: center;
+}
+
+.information .contact-us ul li img {
+    width: 50px;
+    height: 50px;
+}
+
+.description {
+    padding: 10px;
+}
+
+.description .des-content {
+    font-size: 1.3rem;
+
+}
